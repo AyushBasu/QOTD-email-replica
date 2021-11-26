@@ -3,7 +3,7 @@ import smtplib
 from email.message import EmailMessage
 
 senderEmail = "pingryquizbowl@gmail.com"
-senderPassword = "S1mplep@ss"
+senderPassword = # not putting the password here for obvious reasons
 
 receiversList = []
 
