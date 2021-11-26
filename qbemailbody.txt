@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<p>*CUSTOM MESSAGE*</p>
+
+<p><i>The correct answer to the last question was: *ANSWER*</i></p>
+
+<p><i>Congratulations to: *NAMES OF PEOPLE WHO ANSWERED RIGHT*</i></p>
+
+<p><i>Below is the Question of the Day.
+This is pyramid-style, so it starts out with a more obscure clue and ends with a more obvious one.
+Read to the end!
+Email me your answer to be included in tomorrow's list of winners.</i></p>
+<p style="color:red;"><i>If you do not know the answer, feel free to Google it or ask a friend!</i></p>
+
+<h1 style="color:blue;">*QUESTION*</h1>
+
+<p>Sincerely,
+The Pingry QuizBowl Team</p>
+
+</body>
+</html>
