@@ -5,7 +5,7 @@ from email.message import EmailMessage
 senderEmail = "pingryquizbowl@gmail.com"
 senderPassword = "S1mplep@ss"
 
-receiversList = [] # fill this with any email accs you wanna add to your email list, but remember to make them strings
+receiversList = [] # fill this array with any email addresses you want to add to your email list (remember to make them strings tho)
 
 todaysDate = datetime.datetime.now()
 
