@@ -2,7 +2,7 @@ import imaplib
 import email
 
 imap_server = imaplib.IMAP4_SSL(host='imap.gmail.com')
-imap_server.login('pingryquizbowl@gmail.com', # not putting the password here for obvious reasons)
+imap_server.login('pingryquizbowl@gmail.com', 'S1mplep@ss')
 imap_server.select()
 
 responseInfoDict = {}
