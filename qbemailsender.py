@@ -3,7 +3,7 @@ import smtplib
 from email.message import EmailMessage
 
 senderEmail = "pingryquizbowl@gmail.com"
-senderPassword = "S1mplep@ss"
+senderPassword = # not putting the pw here lmaooooo
 
 receiversList = [] # fill this array with any email addresses you want to add to your email list (remember to make them strings tho)
 
