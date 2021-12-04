@@ -3,9 +3,9 @@ import smtplib
 from email.message import EmailMessage
 
 senderEmail = "pingryquizbowl@gmail.com"
-senderPassword = "S1mplep@ss"
+senderPassword = # not putting the password here for obvious reasons
 
-receiversList = []
+receiversList = [] # add the email addresses you want on your email list to this array (remember to make them each strings)
 
 todaysDate = datetime.datetime.now()
 
