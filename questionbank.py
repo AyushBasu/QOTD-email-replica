@@ -2,7 +2,7 @@
   {
     "__v": 0,
     "_id": {
-      "$oid": "506e3eb18b3d831d6 a000675"
+      "$oid": "506e3eb18b3d831d6a000675"
     },
     "answer": "{utilitarianism}",
     "category": "Philosophy",
