@@ -128,7 +128,10 @@ fo = open("infodict.txt", "r")
 infoDict = fo.read()
 fo.close()
 
-dictInfoDict = ast.literal_eval(infoDict)
+if infoDict == "":
+    dictInfoDict = {}
+else:
+    dictInfoDict = ast.literal_eval(infoDict)
 
 correctReplierNames = []
 
@@ -143,9 +146,10 @@ if dictInfoDict != {}:
 else:
     emailContents = emailContents.replace("*NAMES OF PEOPLE WHO ANSWERED RIGHT*", "N/A")
 
-todaysCaption = "*TEST CAPTION*"
-emailContents = emailContents.replace("*CUSTOM MESSAGE*", todaysCaption)
-
+fo = open("dailymsg.txt", "r")
+message = fo.read()
+fo.close()
+emailContents = emailContents.replace("*CUSTOM MESSAGE*", message)
 
 fo = open("finalemail.html", "w")
 fo.write(emailContents)
